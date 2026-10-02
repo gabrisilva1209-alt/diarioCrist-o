@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diário Espiritual</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lora:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-logo" viewBox="0 0 48 48"><path d="M24 4v14M18.5 9h11" stroke-width="2.6"/><path d="M24 22c-5-3-12-3-18-1v19c6-2 13-2 18 1 5-3 12-3 18-1V21c-6-2-13-2-18 1zM24 22v19"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20S3 14.5 3 8.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 9 1.5C21 14.5 12 20 12 20z"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-9-1.500v14c4-.5 7 0 9 1.500 2-1.500 5-2 9-1.500v-14C17 4 14 4.500 12 6zM12 6v14"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C4 10 9 4 20 4c0 10-5 16-13 15M5 19c3-5 6-8 10-10"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7M5 10v10h14V10"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></symbol>
+<symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 17V11a6 6 0 0 1 12 0v6l2 2H4zM10 21h4"/></symbol>
+<symbol id="i-bm" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.500 1.500M17.500 17.500 19 19M19 5l-1.500 1.500M6.500 17.500 5 19"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 6 0l3-3a4 4 0 0 0-6-6l-1 1M14 10a4 4 0 0 0-6 0l-3 3a4 4 0 0 0 6 6l1-1"/></symbol>
+<symbol id="i-img" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.500"/><path d="m21 16-5-5-9 9"/></symbol>
+<symbol id="i-save" viewBox="0 0 24 24"><path d="M5 3h11l3 3v15H5zM8 3v5h7V3M8 21v-7h8v7"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+</defs></svg>
+
+<!-- ============ LANDING ============ -->
+<section class="view" id="v-landing">
+<header class="top"><div class="wrap">
+<a class="logo" href="#v-landing"><svg class="ico"><use href="#i-logo"/></svg>Diário Espiritual</a>
+<nav class="nav"><a class="on" href="#v-landing">Início</a><a href="#como">Como funciona</a><a href="#v-login">Entrar</a><a class="btn sm" href="#v-signup">Criar conta</a></nav>
+</div></header>
+<div class="hero">
+<div class="sun"></div>
+<svg class="mt" viewBox="0 0 1200 190" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 260 50 480 110 720 30 960 100 1200 60V190H0z" fill="#8a8f72" opacity=".55"/><path d="M0 150 300 90 560 140 860 80 1200 140V190H0z" fill="#5f6b45" opacity=".8"/></svg>
+<div class="desk"></div><div class="ph"></div><div class="fade"></div><span class="mote" style="left:32%;width:4px;height:4px;animation-duration:10s;animation-delay:-11s"></span><span class="mote" style="left:52%;width:5px;height:5px;animation-duration:11s;animation-delay:-1s"></span><span class="mote" style="left:10%;width:2px;height:2px;animation-duration:15s;animation-delay:-8s"></span><span class="mote" style="left:39%;width:2px;height:2px;animation-duration:12s;animation-delay:-8s"></span><span class="mote" style="left:70%;width:4px;height:4px;animation-duration:13s;animation-delay:-12s"></span><span class="mote" style="left:24%;width:2px;height:2px;animation-duration:13s;animation-delay:-3s"></span><span class="mote" style="left:5%;width:4px;height:4px;animation-duration:13s;animation-delay:-3s"></span><span class="mote" style="left:23%;width:4px;height:4px;animation-duration:13s;animation-delay:-10s"></span><span class="mote" style="left:95%;width:4px;height:4px;animation-duration:10s;animation-delay:-9s"></span><span class="mote" style="left:45%;width:5px;height:5px;animation-duration:17s;animation-delay:-3s"></span><span class="mote" style="left:24%;width:3px;height:3px;animation-duration:16s;animation-delay:-4s"></span><span class="mote" style="left:13%;width:4px;height:4px;animation-duration:9s;animation-delay:-4s"></span>
+<div class="wrap"><div class="txt">
+<div class="kick">BEM-VINDO AO</div><h1>Diário Espiritual</h1>
+<p class="lead">Um espaço para você se conectar com Deus, refletir e crescer na sua jornada de fé.</p>
+<p style="margin-bottom:1.6rem;max-width:440px">Aqui você encontra um diário digital, simples e seguro, criado para ajudar você a registrar seus pensamentos, orações e aprendizados. Seja qual for a sua idade, você é muito bem-vindo!</p>
+<a class="btn" href="#v-signup">Começar agora <svg class="ico"><use href="#i-arrow"/></svg></a>
+</div></div></div>
+
+<section class="sec" id="como"><div class="wrap center">
+<h2>Como funciona</h2><p class="sub">Três passos simples. Sem pressa, sem cobrança: você escreve no seu ritmo.</p>
+<div class="steps">
+<div class="step rv"><svg class="ico" style="width:2rem;height:2rem"><use href="#i-user"/></svg><b>Crie sua conta</b><p>Só nome, e-mail e senha. Nada de documentos ou dados pessoais.</p></div>
+<div class="step rv"><svg class="ico" style="width:2rem;height:2rem"><use href="#i-book"/></svg><b>Escreva todos os dias</b><p>Uma pergunta por dia ajuda você a começar: oração, desabafo ou gratidão.</p></div>
+<div class="step rv"><svg class="ico" style="width:2rem;height:2rem"><use href="#i-leaf"/></svg><b>Veja seu crescimento</b><p>Acompanhe sua constância, defina metas e releia o que Deus fez na sua vida.</p></div>
+</div></div></section>
+
+<section class="sec alt"><div class="wrap center">
+<div class="rule rv">NOSSA PROPOSTA</div>
+<h2>Mais do que um diário,<br>um caminho com propósito.</h2>
+<p class="sub">O Diário Espiritual é um projeto da igreja que tem como objetivo ajudar você a fortalecer sua vida com Deus, por meio da escrita, da reflexão e do acompanhamento da sua jornada espiritual.</p>
+<div class="trio">
+<div class="rv"><div class="blob" style="background:#f4e1c6"><svg class="ico"><use href="#i-target"/></svg></div><h3>Missão</h3><p>Oferecer um espaço acessível, seguro e acolhedor para que todas as pessoas possam registrar sua fé, fortalecer seu relacionamento com Deus e crescer espiritualmente.</p></div>
+<div class="rv"><div class="blob" style="background:var(--sage)"><svg class="ico"><use href="#i-eye"/></svg></div><h3>Visão</h3><p>Ser uma ferramenta que alcance cada vez mais pessoas, tornando-se referência no apoio à vida espiritual, com tecnologia simples e acessível para todas as gerações.</p></div>
+<div class="rv"><div class="blob" style="background:#d6e0e6"><svg class="ico"><use href="#i-heart"/></svg></div><h3>Valores</h3><ul><li>Fé em Deus</li><li>Respeito a todos</li><li>Acolhimento</li><li>Simplicidade</li><li>Compromisso com o próximo</li></ul></div>
+</div>
+<p class="quote rv">“Porque para Deus nada é impossível.”<small>Lucas 1:37</small></p>
+</div></section>
+
+<section class="sec"><div class="wrap priv">
+<div><h2>Seu diário é só seu.</h2><p class="sub" style="margin:1rem 0 0;max-width:none">Não é uma rede social. Ninguém curte, comenta ou vê o que você escreve.</p>
+<ul><li><svg class="ico"><use href="#i-lock"/></svg>Seus textos ficam privados, visíveis apenas para você.</li><li><svg class="ico"><use href="#i-shield"/></svg>Seus dados não são compartilhados com terceiros.</li><li><svg class="ico"><use href="#i-user"/></svg>Letras grandes e telas simples, para todas as idades.</li></ul></div>
+<div class="step" style="text-align:center"><p class="q" style="margin:0 0 .6rem;font-size:2.2rem">Deus cuida de cada detalhe.</p><p>Um espaço para parar, respirar e conversar com Deus.</p><a class="btn" style="margin-top:1.4rem" href="#v-signup">Criar minha conta</a></div>
+</div></section>
+<svg class="wave" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40C200 0 400 70 650 45S1000 5 1200 20V70H0z" fill="currentColor"/></svg>
+<footer class="foot"><div class="wrap"><span>© Diário Espiritual · Um projeto da igreja</span><span>Mais perto de Deus, todos os dias.</span></div></footer>
+</section>
+
+<!-- ============ CADASTRO / LOGIN ============ -->
+<section class="view auth" id="v-signup">
+<div class="photo"><a class="logo" href="#v-landing"><svg class="ico"><use href="#i-logo"/></svg><span>Diário Espiritual<small>Conecte-se com Deus todos os dias</small></span></a>
+<div><h1>Sua jornada espiritual começa aqui.</h1><p>O Diário Espiritual é um espaço seguro e simples para você registrar seus pensamentos, orações, aprendizados e ver o quanto Deus tem trabalhado em sua vida.</p>
+<div class="perks"><span><svg class="ico"><use href="#i-book"/></svg>Registre seus devocionais</span><span><svg class="ico"><use href="#i-heart"/></svg>Acompanhe sua caminhada</span><span><svg class="ico"><use href="#i-leaf"/></svg>Cresça espiritualmente</span></div></div>
+<span class="hand">Mais perto de Deus, todos os dias.</span></div>
+<div class="formside"><form class="fcard" action="#v-app" method="get"><span class="kick">PRIMEIRO ACESSO</span><hr><h1>Crie sua conta</h1><p>Preencha os dados abaixo para começar sua jornada no Diário Espiritual.</p><div class="fld"><label for="s-n"><svg class="ico"><use href="#i-user"/></svg>Nome completo</label><div class="inp"><input id="s-n" autocomplete="name" placeholder="Ex.: João da Silva" required pattern="\S+(\s+\S+)+"></div><div class="err">Digite seu nome completo.</div></div><div class="fld"><label for="s-e"><svg class="ico"><use href="#i-mail"/></svg>E-mail</label><div class="inp"><input id="s-e" type="email" autocomplete="email" placeholder="Ex.: seuemail@exemplo.com" required></div><div class="err">Digite um e-mail válido, como nome@exemplo.com.</div></div><div class="fld"><label for="s-p"><svg class="ico"><use href="#i-lock"/></svg>Senha</label><div class="inp"><input id="s-p" type="password" autocomplete="new-password" placeholder="Mínimo de 6 caracteres" required minlength="6"><span class="eye" aria-hidden="true"><svg class="ico"><use href="#i-eye"/></svg></span></div><div class="err">A senha precisa ter pelo menos 6 caracteres.</div></div><div class="fld"><label for="s-c"><svg class="ico"><use href="#i-lock"/></svg>Confirmar senha</label><div class="inp"><input id="s-c" type="password" autocomplete="new-password" placeholder="Digite a senha novamente" required minlength="6"><span class="eye" aria-hidden="true"><svg class="ico"><use href="#i-eye"/></svg></span></div><div class="err">Digite a senha novamente.</div></div><button class="btn big" type="submit">Cadastrar <svg class="ico"><use href="#i-arrow"/></svg></button><div class="or">Já tem uma conta?</div><div style="text-align:center"><a class="link" href="#v-login">Faça login</a></div><div class="sec-note"><svg class="ico" style="width:2em;height:2em"><use href="#i-shield"/></svg>Seus dados estão seguros e não serão compartilhados com terceiros.</div></form></div></section>
+
+<section class="view auth" id="v-login">
+<div class="photo"><a class="logo" href="#v-landing"><svg class="ico"><use href="#i-logo"/></svg><span>Diário Espiritual<small>Conecte-se com Deus todos os dias</small></span></a>
+<div><h1>Que bom ver você de novo.</h1><p>Seu diário está esperando por você, exatamente como você deixou.</p></div>
+<span class="hand">Mais perto de Deus, todos os dias.</span></div>
+<div class="formside"><form class="fcard" action="#v-app" method="get"><span class="kick">BEM-VINDO DE VOLTA</span><hr><h1>Entrar</h1><p>Digite seu e-mail e sua senha para abrir seu diário.</p><div class="fld"><label for="l-e"><svg class="ico"><use href="#i-mail"/></svg>E-mail</label><div class="inp"><input id="l-e" type="email" autocomplete="email" placeholder="Ex.: seuemail@exemplo.com" required></div><div class="err">Digite um e-mail válido.</div></div><div class="fld"><label for="l-p"><svg class="ico"><use href="#i-lock"/></svg>Senha</label><div class="inp"><input id="l-p" type="password" autocomplete="current-password" placeholder="Sua senha" required minlength="6"><span class="eye" aria-hidden="true"><svg class="ico"><use href="#i-eye"/></svg></span></div><div class="err">Digite sua senha (mínimo 6 caracteres).</div></div><button class="btn big" type="submit">Entrar <svg class="ico"><use href="#i-arrow"/></svg></button><div class="or">Ainda não tem conta?</div><div style="text-align:center"><a class="link" href="#v-signup">Crie sua conta</a></div><div class="sec-note"><svg class="ico" style="width:2em;height:2em"><use href="#i-shield"/></svg>Seu diário é privado e só você tem acesso.</div></form></div></section>
+
+<!-- ============ APP ============ -->
+<section class="view app" id="v-app">
+<input type="checkbox" id="navt" class="vh" aria-label="Abrir menu"><label class="scrim" for="navt"></label>
+<aside class="side" id="side"><label class="sx" for="navt" aria-label="Fechar menu"><svg class="ico"><use href="#i-x"/></svg></label>
+<div class="brand"><svg class="ico"><use href="#i-logo"/></svg><h2>Diário Espiritual</h2><small>Conecte-se com Deus todos os dias</small></div>
+<a class="m" href="#t-diario"><svg class="ico"><use href="#i-home"/></svg>Meu Diário</a><a class="m" href="#t-progresso"><svg class="ico"><use href="#i-cal"/></svg>Meu Progresso</a><a class="m" href="#t-metas"><svg class="ico"><use href="#i-target"/></svg>Metas</a><a class="m" href="#t-recursos"><svg class="ico"><use href="#i-book"/></svg>Recursos</a>
+<hr><div class="vs">“Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens.”<small>Colossenses 3:23</small></div>
+<a class="m" href="#t-config"><svg class="ico"><use href="#i-gear"/></svg>Configurações</a></aside>
+<div class="main">
+<header class="hdr"><label class="ham" for="navt" aria-label="Abrir menu"><svg class="ico" style="width:1.8rem;height:1.8rem"><use href="#i-menu"/></svg></label>
+<div class="leaf"><svg class="ico"><use href="#i-leaf"/></svg></div><div><h2>Olá, Wesley!</h2><p>Que bom ter você aqui hoje. Continue firmando sua jornada com Deus.</p></div><div class="sp"></div>
+<span class="bell" aria-label="Notificações"><svg class="ico"><use href="#i-bell"/></svg></span>
+<a class="usr" href="#t-config"><span class="av">W</span><span class="nm">Wesley</span><span class="nm"><svg class="ico"><use href="#i-chev"/></svg></span></a></header>
+<div id="t-diario" class="stage tab">
+<div class="desk2"><i class="lf a"></i><i class="lf b"></i><div class="book">
+<div class="btop"><label class="date"><svg class="ico"><use href="#i-cal"/></svg><input type="date" value="2026-09-30" aria-label="Escolher data"></label><span style="flex:1"></span>
+<input type="checkbox" id="bmk" class="vh"><label class="bm" for="bmk" aria-label="Marcar página"><svg class="ico"><use href="#i-bm"/></svg></label><span class="chip"><svg class="ico"><use href="#i-sun"/></svg>Hoje</span></div>
+<h1 class="q">O que Deus tem colocado no seu coração hoje?</h1><i></i>
+<p class="hint">Use este espaço para escrever, orar, desabafar ou simplesmente compartilhar o que você sente. Aqui é um lugar seguro e especial para você ser sincero com Deus.</p>
+<div class="ed"><textarea maxlength="2000" placeholder="Escreva aqui..." aria-label="Escreva aqui"></textarea><span class="cnt">máximo de 2000 caracteres</span></div>
+<div class="bar"><button class="tool" disabled title="Em breve" aria-label="Negrito"><b>B</b></button><button class="tool" disabled title="Em breve" aria-label="Itálico"><i style="font-family:var(--serif)">I</i></button><button class="tool" disabled title="Em breve" aria-label="Lista"><svg class="ico"><use href="#i-list"/></svg></button><button class="tool" disabled title="Em breve" aria-label="Link"><svg class="ico"><use href="#i-link"/></svg></button><button class="tool" disabled title="Em breve" aria-label="Inserir imagem"><svg class="ico"><use href="#i-img"/></svg></button>
+<button class="btn" type="button"><svg class="ico"><use href="#i-save"/></svg>Salvar</button></div>
+</div></div>
+<aside class="col">
+<div class="vcard"><span class="big">“</span><p>Entregue o seu caminho ao Senhor, confie nEle, e Ele tudo fará.</p><small>Salmos 37:5</small></div>
+<div class="cc"><h3><svg class="ico"><use href="#i-target"/></svg>Suas metas<a href="#t-metas" aria-label="Ver metas"><svg class="ico"><use href="#i-arrow"/></svg></a></h3><p>Você ainda não cadastrou nenhuma meta. Que tal começar hoje?</p><a class="btn ghost" href="#t-metas"><svg class="ico"><use href="#i-plus"/></svg>Adicionar meta</a></div>
+<div class="cc"><h3><svg class="ico"><use href="#i-heart"/></svg>Seu momento atual</h3><p>Como você está se sentindo hoje?</p><div class="moods"><input type="radio" name="m" id="m0" class="vh"><label class="mood" for="m0"><span>😌</span>Tranquilo</label><input type="radio" name="m" id="m1" class="vh" checked><label class="mood" for="m1"><span>🙂</span>Bem</label><input type="radio" name="m" id="m2" class="vh"><label class="mood" for="m2"><span>😴</span>Cansado</label><input type="radio" name="m" id="m3" class="vh"><label class="mood" for="m3"><span>😟</span>Ansioso</label><input type="radio" name="m" id="m4" class="vh"><label class="mood" for="m4"><span>😢</span>Triste</label></div></div>
+<div class="cc alone"><b>Você não está sozinho.</b><p style="color:var(--ink)">Deus caminha com você em todas as fases da sua vida.</p></div>
+</aside></div>
+<div id="t-progresso" class="pg tab"><h1>Meu Progresso</h1><p>Cada registro é um passo. Veja como sua caminhada tem sido.</p>
+<div class="stats"><div class="cc"><b>0</b>registros</div><div class="cc"><b>0</b>dias seguidos</div><div class="cc"><b>0</b>palavras escritas</div></div>
+<h3 style="margin-bottom:.8rem">Registros recentes</h3><div class="list"><div class="item"><span class="grow">Você ainda não salvou nenhum registro. Que tal escrever hoje?</span><a class="btn ghost sm" href="#t-diario">Escrever</a></div></div></div>
+<div id="t-metas" class="pg tab"><h1>Metas</h1><p>Pequenos compromissos com Deus: ler um capítulo, orar pela manhã, agradecer.</p>
+<div class="row"><div class="inp"><input placeholder="Ex.: Orar 10 minutos todas as manhãs" aria-label="Nova meta"></div><button class="btn" type="button"><svg class="ico"><use href="#i-plus"/></svg>Adicionar</button></div>
+<div class="list"><div class="item"><span class="grow">Nenhuma meta ainda. Escreva a primeira acima.</span></div></div></div>
+<div id="t-recursos" class="pg tab"><h1>Recursos</h1><p>Ideias para começar quando faltarem palavras.</p><div class="list"><div class="item"><div class="grow"><b>Salmo 23</b><small>Para dias de cansaço: leia com calma e escreva o que ficou no coração.</small></div><a class="btn ghost sm" href="#t-diario">Escrever sobre isso</a></div><div class="item"><div class="grow"><b>Gratidão em três linhas</b><small>Anote três motivos de gratidão. Simples e transformador.</small></div><a class="btn ghost sm" href="#t-diario">Escrever sobre isso</a></div><div class="item"><div class="grow"><b>Oração de entrega</b><small>Escreva o que pesa em você e entregue a Deus, com suas palavras.</small></div><a class="btn ghost sm" href="#t-diario">Escrever sobre isso</a></div><div class="item"><div class="grow"><b>Plano de 7 dias</b><small>Um capítulo por dia, um parágrafo seu sobre o que leu.</small></div><a class="btn ghost sm" href="#t-diario">Escrever sobre isso</a></div></div></div>
+<div id="t-config" class="pg tab"><h1>Configurações</h1><p>Deixe o diário do seu jeito.</p>
+<div class="set"><div class="fld"><label>Tamanho das letras</label><div class="seg"><input type="radio" name="fs" id="fs1" class="vh" checked><label for="fs1">Normal</label><input type="radio" name="fs" id="fs2" class="vh"><label for="fs2">Grande</label><input type="radio" name="fs" id="fs3" class="vh"><label for="fs3">Muito grande</label></div></div>
+<a class="btn ghost" href="#v-landing">Sair da conta</a></div></div>
+</div></section>
+
+</body>
+</html>
